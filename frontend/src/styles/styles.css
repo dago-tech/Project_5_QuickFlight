@@ -1,0 +1,82 @@
+body {
+    font-family: 'Calibri', sans-serif;
+    font-size: 10pt;
+}
+
+.principal_button {
+    width: 250px;
+    height: 50px;
+    margin: 20px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-overlay {
+    position: fixed;
+    /*Sets the top, right, bottom, and left values of the overlay to 0 pixels, thus covering the entire screen.*/
+    inset: 0px; 
+    background-color: rgba(255, 255, 255, 0.75);
+}
+  
+.modal-content {
+    position: absolute;
+    max-width: 500px;
+    max-height: 100px;
+    /*Horizontally centers the modal using automatic margins.*/
+    margin: 0 auto;
+    text-align: center;
+    inset: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    /*Adds scroll bars if the modal content is larger than the visible area.*/
+    overflow: auto;
+    border-radius: 4px;
+    /*Removes the outline around the modal that may appear when focusing on it.*/
+    outline: none;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+  
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px; 
+    text-align: left;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.form_flight_create {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.styled_text {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: #bf1212;
+}
+
+.help_label {
+    font-size: 10px;
+    color: gray;
+    margin: 0;
+}

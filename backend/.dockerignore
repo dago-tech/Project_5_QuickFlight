@@ -1,0 +1,31 @@
+# Excluir archivos y directorios específicos
+
+# Archivos de configuración locales
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Archivos de entorno local
+.env
+venv
+
+# Archivos de base de datos local
+db.sqlite3
+
+# Archivos de registro local
+logs/
+
+# Archivos de medios local
+media/
+docs/
+.git/
+
+# Archivos generados durante la construcción
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.DS_Store
+.dockerignore
+Dockerfile
